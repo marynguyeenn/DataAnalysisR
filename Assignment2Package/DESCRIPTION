@@ -1,0 +1,17 @@
+Package: Assignment2Package
+Title: Updating Decimal Minutes to Decimal Degrees and %d-%b-%y to %Y-%m-%d Date format
+Version: 0.0.0.9000
+Authors@R: 
+    person("Mary", "Nguyen", , "mtn45@georgetown.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package contains the function "update_DD_date" which takes the input of a specified dataframe and it's respective Longitude, Latitude, and Date values.
+    The Longitude and Latitude values in the dataframe must originally be in decimal minutes. The function will update it to output values in decimal degrees.
+    In addition, it will take the input of a Date that is formated %d-%b-%y and change it to be in the %Y-%m-%d format.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Depends: 
+    R (>= 2.10)
+LazyData: true
